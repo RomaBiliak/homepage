@@ -9,7 +9,10 @@ body{
 }
 .row p, .row h2, .row h4, .row li {
 		color: #666;
-	}	
+	}
+.row ul{
+	padding-left:50px;
+}	
 .marketing-site-features {
   text-align: center;
 }
@@ -143,8 +146,8 @@ body{
 	font-family: COLONNA;
 }
 .trinity-icon{
-	background: url("../image/trinity16.png") no-repeat center;
-	display:block;
+	background: url("../image/trinity16.png") no-repeat;
+	background-position: 90px; 
 }
 .timeline .timeline-item::after, .timeline .timeline-item::before {
   clear: both;
@@ -162,7 +165,7 @@ body{
 }
 
 .timeline::before {
-  background: #333;
+  background: #444;
   content: '';
   height: 100%;
   left: 50%;
@@ -185,7 +188,7 @@ body{
 }
 
 .timeline a:hover {
-  box-shadow: 0 1px 0px 0px #333;
+  box-shadow: 0 1px 0px 0px #888;
   transition: all 0.25s ease-in;
 }
 
@@ -230,7 +233,7 @@ body{
 }
 
 .timeline .timeline-item .timeline-content p {
-  color: #333;
+  color: #555;
 }
 
 .timeline .timeline-item .timeline-content p {
@@ -279,6 +282,9 @@ body{
   .timeline .timeline-item .timeline-icon {
     left: 0;
   }
+}
+.article-comments{
+	min-width:220px;
 }
 ul li img{
 	margin-right:5px;
