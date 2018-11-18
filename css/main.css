@@ -7,12 +7,12 @@ body{
 	padding: 0 20px 0 20px;
 	margin-top:20px;
 }
-.row p, .row h2, .row h4, .row li {
+.row p, .row h2, .row h3, .row h4, .row li {
 		color: #666;
 	}
-.row ul{
+/*.row ul{
 	padding-left:50px;
-}	
+}*/	
 .marketing-site-features {
   text-align: center;
 }
@@ -46,6 +46,13 @@ body{
 
 .large-article-header {
   background: url("../image/background.jpg") no-repeat center;
+  background-size: cover;
+  height: 25rem;
+  position: relative;
+}
+
+.large-article-footer {
+  background: url("../image/background_footer.jpg") no-repeat center;
   background-size: cover;
   height: 25rem;
   position: relative;
@@ -181,7 +188,7 @@ body{
   width: 100%;
 }
 
-.timeline a {
+.row-border a {
   color: #333;
   font-weight: bold;
   transition: all 0.25s ease-in;
@@ -290,3 +297,26 @@ ul li img{
 	margin-right:5px;
 	padding-bottom: 2px;
 }
+.my-project li{
+	margin-bottom:15px;
+}
+/**footer**/
+footer {
+	background: url("../image/background_footer.jpg") no-repeat center;
+	width:100%;
+}
+.menu{
+	float: right;
+	
+}
+.menu a{
+	padding:0;
+	font-weight: normal;
+	padding-top: 3px;
+	color: #fefefe;
+}
+.menu li{
+	padding: 5px 20px 0px 0px;
+	color: #fefefe;
+}
+
