@@ -47,7 +47,7 @@ body{
 .large-article-header {
   background: url("../image/background.jpg") no-repeat center;
   background-size: cover;
-  height: 25rem;
+  height: 20rem;
   position: relative;
 }
 
@@ -73,7 +73,7 @@ body{
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
-  bottom: 3.125rem;
+  bottom: 1.0rem;
   left: 0;
   right: 0;
 }
@@ -86,7 +86,7 @@ body{
 
 .large-article-header-content .center-container {
   width: 50%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 @media screen and (max-width: 39.9375em) {
