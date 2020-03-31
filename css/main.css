@@ -314,6 +314,7 @@ footer {
 	font-weight: normal;
 	padding-top: 3px;
 	color: #fefefe;
+	display: inline;
 }
 .menu li{
 	padding: 5px 20px 0px 0px;
