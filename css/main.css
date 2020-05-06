@@ -45,14 +45,14 @@ body{
 }
 
 .large-article-header {
-  background: url("../image/background.jpg") no-repeat center;
+  background: url("../image/background_1.0.jpg") no-repeat center;
   background-size: cover;
   height: 20rem;
   position: relative;
 }
 
 .large-article-footer {
-  background: url("../image/background_footer.jpg") no-repeat center;
+  background: url("../image/background_footer_1.0.jpg") no-repeat center;
   background-size: cover;
   height: 25rem;
   position: relative;
